@@ -1,0 +1,62 @@
+.card {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  cursor: pointer;
+
+  /* Inentificadores de área */
+  border: 1px solid #000a;
+  background-color: #eee;
+}
+
+.card .image {
+  width: 98%;
+  height: 98%;
+
+  /* Inentificadores de área */
+  border: 1px solid #000a;
+  background-color: #ecc;
+}
+
+.card .image img {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  
+  object-fit: cover;
+}
+
+.card .image img.overlaid {
+  z-index: -2;
+}
+
+.card .overlay {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  
+  object-fit: cover;
+  z-index: -1;
+}
+
+.card .title {
+  /* Inentificadores de área */
+  border: 1px solid #000a;
+  background-color: #cec;
+}
+
+.card .detail {
+  /* Inentificadores de área */
+  border: 1px solid #000a;
+  background-color: #eec;
+}
