@@ -1,4 +1,10 @@
 :root {
+  --banner-height-xs: 80px;
+  --banner-height-sm: 100px;
+  --banner-height-md: 120px;
+  --banner-height-lg: 150px;
+  --banner-height-xl: 190px;
+
   --scrollbar-width: 12px;
   --scrollbar-height: 12px;
   --scrollbar-track-outline-thick: 1px;

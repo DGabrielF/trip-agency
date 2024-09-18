@@ -1,7 +1,10 @@
+import { Banner } from "../pages/Banner/Banner.js";
+import { data } from "./data.js";
+
 function init () {
+  const body = document.querySelector("body");
   // Banner
-  // // Logo
-  // // Carrossel de imagens
+  body.appendChild(Banner.create(data.pages.banner))
   // Menu
   // // Login
   // // Registro

@@ -1,0 +1,52 @@
+.banner .carousel {
+  height: 100%;
+}
+
+.banner .carousel .content {
+  height: 100%;
+}
+
+.banner .carousel .carousel_menu {
+  display: none;
+}
+
+@media only screen and (max-width: 399px) {
+  .banner {
+    height: var(--banner-height-xs);
+  }
+}
+
+/* Smartphones Retratos */
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  .banner {
+    height: var(--banner-height-sm);
+  }
+}
+
+/* Smartphones Paisagem e Tablets Pequenos */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .banner {
+    height: var(--banner-height-md);
+  }
+}
+
+/* Tablets e Dispositivos Maiores em Modo Retrato */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .banner {
+    height: var(--banner-height-lg);
+  }
+}
+
+/* Tablets e Dispositivos em Modo Paisagem */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .banner {
+    height: var(--banner-height-lg);
+  }
+}
+
+/* Desktops e Laptops */
+@media only screen and (min-width: 1200px) {
+  .banner {
+    height: var(--banner-height-xl);
+  }
+}

@@ -97,7 +97,7 @@ export const data = {
       title: "",
       subtitle: "",
       description: [""],
-      imagens: [
+      images: [
         {
           src: "",
           alt: "",
@@ -109,7 +109,7 @@ export const data = {
       title: "",
       subtitle: "",
       description: [""],
-      imagens: [
+      images: [
         {
           src: "",
           alt: "",
@@ -183,7 +183,7 @@ export const data = {
         "Se está aparecendo aqui, é porque ainda dá pra você!",
         "Tudo já está devidamente planejado e organizado pra você só curtir."
       ],
-      imagens: [
+      images: [
         {
           src: "",
           alt: "",
@@ -195,7 +195,7 @@ export const data = {
       title: "Escolha o seu destino",
       subtitle: "",
       description: [""],
-      imagens: [
+      images: [
         {
           src: "",
           alt: "",
@@ -210,7 +210,7 @@ export const data = {
         "Sabe quando a gente quer viajar, mas aparece um monte de coisa pra escolher...",
         "Bem, separamos algumas perguntas, pra tentar te ajudar a poupar seu tempo e filtrar opções para você!"
       ],
-      imagens: [
+      images: [
         {
           src: "",
           alt: "",
@@ -222,7 +222,7 @@ export const data = {
       title: "Hospedagens",
       subtitle: "Lugares pra chamar de lar, estando longe do seu lar",
       description: [""],
-      imagens: [
+      images: [
         {
           src: "",
           alt: "",
