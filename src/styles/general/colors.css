@@ -1,0 +1,46 @@
+:root {
+  --text-light-color: #ffffff;
+  --text-heavy-color: #000000;
+
+  --body-bg-color: #111111;
+
+  --section-light-bg-color: #dddddd;
+  --section-heavy-bg-color: #222222;
+
+  --common-button-bg-color: #2222aa;
+  --common-button-hover-bg-color: #22229a;
+  --confirm-button-bg-color: #22aa22;
+  --confirm-button-hover-bg-color: #229a22;
+  --cancel-button-bg-color: #aa2222;
+  --cancel-button-hover-bg-color: #9a2222;
+
+  --scrollbar-track-bg-color: #ababab;
+  --scrollbar-track-outline-color: #222222;
+  --scrollbar-thumb-bg-color: #555555;
+  --scrollbar-thumb-border-color: #444444;
+  --scrollbar-thumb-hover-bg-color: #333333;
+  --scrollbar-thumb-hover-border-color: #444444;
+}
+
+.dark-mode {
+  --text-light-color: #000000;
+  --text-heavy-color: #ffffff;
+
+  --body-bg-color: #eeeeee;
+
+  --section-light-bg-color: #222222;
+  --section-heavy-bg-color: #dddddd;
+
+  --common-button-bg-color: #0000aa;
+  --common-button-hover-bg-color: #00009a;
+  --confirm-button-bg-color: #00aa00;
+  --confirm-button-hover-bg-color: #009a00;
+  --cancel-button-bg-color: #aa0000;
+  --cancel-button-hover-bg-color: #9a0000;
+
+  --scrollbar-track-bg-color: #121212;
+  --scrollbar-track-outline-color: #aaaaaa;
+  --scrollbar-thumb-bg-color: #252525;
+  --scrollbar-thumb-hover-bg-color: #303030;
+  --scrollbar-thumb-outline-color: #444444;
+}
