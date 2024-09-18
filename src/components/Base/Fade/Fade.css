@@ -1,0 +1,21 @@
+.fade {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #000000aa;
+  
+  display: block;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  transition: background-color 0.2s ease;
+}
+
+
+.fade.hide {
+  background-color: #00000000;
+
+  transition: background-color 0.2s ease;
+}
