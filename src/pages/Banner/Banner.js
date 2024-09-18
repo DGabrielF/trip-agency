@@ -1,14 +1,15 @@
 import { ToolsHTML } from "../../scripts/tools/ToolsHTML.js"
 import { Carousel } from "../../components/Base/Carousel/Carousel.js";
+import { data } from "../../scripts/data.js";
 
 export const Banner = {
-  create: ({ images }) => {},
+  create: () => {},
 }
 
-Banner.create = ({ images }) => {
+Banner.create = () => {
   const element = ToolsHTML.createElementWithClass("div", "banner");
   
-  const carousel = createCarousel(images);
+  const carousel = createCarousel(data.pages.banner.images);
   element.appendChild(carousel.create())
   
   return element;

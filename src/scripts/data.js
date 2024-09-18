@@ -106,15 +106,6 @@ export const data = {
       items: [],
     },
     menu: {
-      title: "",
-      subtitle: "",
-      description: [""],
-      images: [
-        {
-          src: "",
-          alt: "",
-        }
-      ],
       items: [
         {
           text: "Já programadas",

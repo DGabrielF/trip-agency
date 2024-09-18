@@ -1,11 +1,13 @@
 import { Banner } from "../pages/Banner/Banner.js";
+import { TopMenu } from "../pages/TopMenu/TopMenu.js";
 import { data } from "./data.js";
 
 function init () {
   const body = document.querySelector("body");
   // Banner
-  body.appendChild(Banner.create(data.pages.banner))
+  body.appendChild(Banner.create());
   // Menu
+  body.appendChild(TopMenu.create());
   // // Login
   // // Registro
   // // Perfil

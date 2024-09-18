@@ -10,6 +10,7 @@
 @import url(../components/Base/Dialog/Dialog.css);
 @import url(../components/Base/Entry/Entry.css);
 @import url(../components/Base/Fade/Fade.css);
+@import url(../components/Base/Menu/Menu.css);
 @import url(../components/Base/Toast/Toast.css);
 /* Pages */
 @import url(../pages/Banner/Banner.css);
@@ -21,7 +22,6 @@
 @import url(../pages/Hosters/Hosters.css);
 @import url(../pages/Login/Login.css);
 @import url(../pages/Logout/Logout.css);
-@import url(../pages/Menu/Menu.css);
 @import url(../pages/Quizz/Quizz.css);
 @import url(../pages/Register/Register.css);
 @import url(../pages/Schedule/Schedule.css);
