@@ -27,7 +27,13 @@
 */
 
 export class Carousel {
-  constructor(objectArray, previousButtonImg, nextButtonImg, itemPresentationTime, numberOfItemsToShow = 1){
+  constructor({
+    objectArray, 
+    previousButtonImg = "<", 
+    nextButtonImg = ">", 
+    itemPresentationTime = 3000, 
+    numberOfItemsToShow = 1
+  }) {
     this.#validateParameters(objectArray, previousButtonImg, nextButtonImg, itemPresentationTime, numberOfItemsToShow);
     
     this.objectArray = objectArray;
@@ -74,7 +80,7 @@ export class Carousel {
       const quocient = count / 2;
       const remainder = count % 2;
       const index = (remainder === 0) ? - quocient : quocient + 0.5;
-      indexes.push(this.#handleCurrentIndex(index))
+      indexes.push(this.#handleCurrentIndex(index, this.objectArray))
     }
     return indexes.sort();
   }
@@ -96,7 +102,7 @@ export class Carousel {
     if (numberOfItemsToShow) {
       this.numberOfItemsToShow = numberOfItemsToShow;
     };
-    newIndex = this.#handleCurrentIndex(Number(newIndex));
+    newIndex = this.#handleCurrentIndex(Number(newIndex), this.objectArray);
     this.currentIndex = newIndex;
 
     let minIndex;
@@ -111,7 +117,7 @@ export class Carousel {
 
     const newIndexes = [];
     for (let i = minIndex; i <= maxIndex; i++) {
-      newIndexes.push(this.#handleCurrentIndex(i));
+      newIndexes.push(this.#handleCurrentIndex(i, this.objectArray));
     }
     this.currentIndexes = newIndexes;
 
@@ -148,7 +154,7 @@ export class Carousel {
 
     const previousButton = this.#createElementWithClass("button");
     previousButton.setAttribute("aria-label", "Previous");
-    if (this.previousButtonImg) {
+    if (this.previousButtonImg !== "<") {
       previousButton.style.backgroundImage = `url(${this.previousButtonImg})`;
     } else {
       previousButton.textContent = "<"
@@ -179,7 +185,7 @@ export class Carousel {
 
     const nextButton = this.#createElementWithClass("button");
     nextButton.setAttribute("aria-label", "Next");
-    if (this.nextButtonImg) {
+    if (this.nextButtonImg !== ">") {
       nextButton.style.backgroundImage = `url(${this.nextButtonImg})`;
     } else {
       nextButton.textContent = ">"
@@ -202,8 +208,8 @@ export class Carousel {
     }
   }
 
-  #handleCurrentIndex(newIndex) {
-    return (newIndex + this.objectArray.length) % this.objectArray.length;
+  #handleCurrentIndex(newIndex, array) {
+    return (newIndex + array.length) % array.length;
   }
 
   #createElementWithClass(tag, className = "") {
