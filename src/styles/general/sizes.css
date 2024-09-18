@@ -1,0 +1,8 @@
+:root {
+  --scrollbar-width: 12px;
+  --scrollbar-height: 12px;
+  --scrollbar-track-outline-thick: 1px;
+  --scrollbar-thumb-border-thick: 1px;
+  --scrollbar-track-border-radius: 10px;
+  --scrollbar-thumb-border-radius: 8px;
+}
