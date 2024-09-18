@@ -1,0 +1,28 @@
+/* General */
+@import url(./general/colors.css);
+@import url(./general/fonts.css);
+@import url(./general/scrollbar.css);
+@import url(./general/sizes.css);
+/* Components */
+@import url(../components/Base/Card/Card.css);
+@import url(../components/Base/Carousel/Carousel.css);
+@import url(../components/Base/Detail/Detail.css);
+@import url(../components/Base/Dialog/Dialog.css);
+@import url(../components/Base/Entry/Entry.css);
+@import url(../components/Base/Fade/Fade.css);
+@import url(../components/Base/Toast/Toast.css);
+/* Pages */
+@import url(../pages/Banner/Banner.css);
+@import url(../pages/Budget/Budget.css);
+@import url(../pages/Destination/Destination.css);
+@import url(../pages/Footer/Footer.css);
+@import url(../pages/Form/Form.css);
+@import url(../pages/Header/Header.css);
+@import url(../pages/Hosters/Hosters.css);
+@import url(../pages/Login/Login.css);
+@import url(../pages/Logout/Logout.css);
+@import url(../pages/Menu/Menu.css);
+@import url(../pages/Quizz/Quizz.css);
+@import url(../pages/Register/Register.css);
+@import url(../pages/Schedule/Schedule.css);
+@import url(../pages/Tours/Tours.css);
