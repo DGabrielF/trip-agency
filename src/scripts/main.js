@@ -1,5 +1,6 @@
 import { Banner } from "../pages/Banner/Banner.js";
 import { Login } from "../pages/Login/Login.js";
+import { Register } from "../pages/Register/Register.js";
 import { TopMenu } from "../pages/TopMenu/TopMenu.js";
 
 function init () {
@@ -9,8 +10,9 @@ function init () {
   // Menu
   body.appendChild(TopMenu.create());
   // // Login
-  body.appendChild(Login.create())
+  body.appendChild(Login.create());
   // // Registro
+  body.appendChild(Register.create());
   // // Perfil
   // // Logout
   // Schedule

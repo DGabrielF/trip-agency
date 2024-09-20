@@ -21,7 +21,6 @@ Login.create = () => {
     mandatory: true,
     types: "text",
   })
-
   container.appendChild(user.create());
 
   const password = new Entry({
@@ -29,7 +28,6 @@ Login.create = () => {
     mandatory: true,
     types: ["password", "text"],
   })
-
   container.appendChild(password.create());
 
   const buttonArea = ToolsHTML.createElementWithClass("div", "button_area");
