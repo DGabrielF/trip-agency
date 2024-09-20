@@ -1,4 +1,4 @@
-export class Input {
+export class Entry {
   constructor({
     placeholder = "", 
     mandatory = false, 

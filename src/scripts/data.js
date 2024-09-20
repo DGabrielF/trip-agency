@@ -139,6 +139,11 @@ export const data = {
           options: []
         },
         {
+          text: "Passeios",
+          key: "tour",
+          options: []
+        },
+        {
           text: "Usuário",
           key: "user",
           options: [

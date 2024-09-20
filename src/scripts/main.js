@@ -1,6 +1,6 @@
 import { Banner } from "../pages/Banner/Banner.js";
+import { Login } from "../pages/Login/Login.js";
 import { TopMenu } from "../pages/TopMenu/TopMenu.js";
-import { data } from "./data.js";
 
 function init () {
   const body = document.querySelector("body");
@@ -9,6 +9,7 @@ function init () {
   // Menu
   body.appendChild(TopMenu.create());
   // // Login
+  body.appendChild(Login.create())
   // // Registro
   // // Perfil
   // // Logout
